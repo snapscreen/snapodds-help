@@ -1,9 +1,10 @@
 .container {
   @apply w-full;
-  @apply max-w-none;
+  @apply max-w-lg;
+  @apply mx-auto my-8;
 }
 .container > div {
   @apply max-w-screen-xl;
   @apply mx-auto;
-  @apply px-4;
+  @apply p-8;
 }

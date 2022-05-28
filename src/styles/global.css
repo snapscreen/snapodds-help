@@ -9,10 +9,7 @@
   html,
   body {
     @apply bg-skin-base text-skin-fg;
-    /* background-image:
-    radial-gradient(at 92% 8%, hsla(215,15%,47%,.2) 0, transparent 60%),
-    radial-gradient(at 93% 100%, hsla(217,100%,70%,.4) 0, transparent 60%),
-    radial-gradient(at 0% 0%, hsla(173,100%,78%,.6) 0, transparent 60%); */
+    @apply text-lg;
   }
 
   :root {
@@ -29,8 +26,10 @@
     --color-focus: #ffdd00;
     --color-text-focus: #000000;
   }
+}
 
-  .dark {
+@media (prefers-color-scheme: dark) {
+  :root {
     --color-primary-contrast: var(--color-primary);
     --color-background: #09131d;
     --color-background-muted: #112132;
@@ -55,7 +54,7 @@
   }
 }
 
-a, .prose a {
+a {
   @apply text-skin-primary-text;
   @apply border-b border-transparent;
   @apply transition-all no-underline;
@@ -69,59 +68,42 @@ p {
 }
 
 h1, .h1 {
-  @apply font-semibold;
-  @apply tracking-tight;
-  @apply mt-8 mb-6;
-}
-
-h2, .h2 {
+  @apply mb-6;
+  @apply text-3xl;
   @apply font-bold;
   @apply tracking-tight;
 }
 
-.prose,
-.prose [class~="lead"] {
-  @apply text-current;
+h2, .h2 {
+  @apply mt-8 mb-4;
+  @apply text-2xl;
+  @apply font-bold;
+  @apply tracking-tight;
 }
 
-.prose h1 {
-  @apply text-current;
+ul, ol {
+  @apply list-outside;
 }
 
-/* rectangles */
-.rect {
-  @apply relative;
-  @apply inline-flex;
-  @apply mx-auto;
-  @apply p-2;
+ul {
+  @apply list-disc;
+}
+ol {
+  @apply list-decimal;
 }
 
-.rect:before,
-.rect:after,
-.rect > :last-child:before,
-.rect > :last-child:after {
-  @apply absolute;
-  @apply w-4 h-4;
-  @apply border-2 border-skin-fg;
-  content: '';
+figure {
+  @apply my-4;
 }
 
-.rect:before {
-  @apply top-0 left-0;
-  @apply border-t-2 border-r-0 border-b-0 border-l-2;
+figure.scroll {
+  @apply overflow-x-auto;
+  @apply w-screen;
+  @apply -mx-8;
 }
 
-.rect:after {
-  @apply top-0 right-0;
-  @apply border-t-2 border-r-2 border-b-0 border-l-0;
-}
-
-.rect > :last-child:before {
-  @apply bottom-0 right-0;
-  @apply border-t-0 border-r-2 border-b-2 border-l-0;
-}
-
-.rect > :last-child:after {
-  @apply bottom-0 left-0;
-  @apply border-t-0 border-r-0 border-b-2 border-l-2;
+figure.scroll img {
+  @apply h-56;
+  @apply w-auto;
+  @apply max-w-none;
 }

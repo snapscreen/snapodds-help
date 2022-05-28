@@ -1,5 +1,4 @@
 const plugin = require("tailwindcss/plugin");
-const defaultTheme = require("tailwindcss/defaultTheme");
 
 function withOpacity(variableName) {
   return ({ opacityValue }) => {
@@ -32,7 +31,6 @@ module.exports = {
     "./content/**/*.tsx",
     "./content/**/*.mdx",
   ],
-  darkMode: "class",
   theme: {
     extend: {
       typography: (theme) => ({
@@ -64,9 +62,10 @@ module.exports = {
               fontWeight: "600",
               color: theme("colors.fg"),
             },
-            code: {
-              color: theme("colors.bg"),
-              backgroundColor: theme("colors.focus"),
+            "li": {
+              fontSize: "1.25rem",
+              margin: 0,
+              color: theme("colors.fg"),
             },
             details: {
               backgroundColor: theme("colors.bg"),
@@ -80,19 +79,6 @@ module.exports = {
               backgroundColor: theme("colors.fg-muted"),
             },
             strong: { color: theme("colors.fg") },
-            thead: {
-              color: theme("colors.fg"),
-            },
-            tbody: {
-              tr: {
-                borderBottomColor: theme("colors.base-muted"),
-              },
-            },
-            blockquote: {
-              fontSize: "1.5rem",
-              color: theme("colors.fg"),
-              borderLeftColor: theme("colors.fg-muted"),
-            },
           },
         },
       }),
@@ -119,8 +105,6 @@ module.exports = {
     extend: {},
   },
   plugins: [
-    require("@tailwindcss/typography"),
-    require("@tailwindcss/aspect-ratio"),
     plugin(function ({ addVariant, e, postcss }) {
       addVariant("firefox", ({ container, separator }) => {
         const isFirefoxRule = postcss.atRule({
