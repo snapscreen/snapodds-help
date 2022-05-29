@@ -31,5 +31,11 @@ module.exports = {
       },
     },
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-segment-js`,
+      options: {
+        prodKey: 'RQxmONldfSTx5FA19gbTKnFG5SqD28Qc'
+      },
+    }
   ],
 };
