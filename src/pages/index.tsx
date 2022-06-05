@@ -3,12 +3,14 @@ import { PageProps } from "@/definitions";
 import {
   Layout,
   Container,
+  Seo
 } from "@/components";
 
 const Home: React.FC<PageProps> = ({ location }) => {
 
   return (
     <Layout location={location} title="Help">
+      <Seo title="Help" description="User guidance and tutorials how to use SnapOdds." />
       <Container>
         <article>
           <h1>SnapOdds Instructions</h1>
