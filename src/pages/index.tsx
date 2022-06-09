@@ -20,7 +20,7 @@ const Home: React.FC<PageProps> = ({ location }) => {
           </ol>
           <figure>
             <figcaption className="sr-only">Aim and focus on TV screen and take a picture.</figcaption>
-            <img src="SnapOdds-illustration.png" alt="" />
+            <img src="SnapOdds-illustration.svg" alt="" />
           </figure>
           <section>
             <h2>Not Seeing Odds?</h2>
