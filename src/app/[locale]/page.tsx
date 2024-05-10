@@ -15,8 +15,8 @@ export default function IndexPage({params: {locale}}: Props) {
 
   return (
     <PageLayout title={t('title')}>
-      <div className="max-w-md">
-        <div className="rounded-md p-4 shadow-lg">
+      <div className="mx-auto max-w-md">
+        <div className="rounded-md bg-[--color-background-flash] p-4 shadow-lg">
           <ol className="mx-6 mb-4 list-decimal space-y-2">
             <li>{t.rich('first')}</li>
             <li>{t.rich('second')}</li>
@@ -34,7 +34,7 @@ export default function IndexPage({params: {locale}}: Props) {
             {t.rich('troubleTitle')}
           </h2>
           <ol className="space-y-4">
-            <li className="rounded-md p-4 shadow-lg">
+            <li className="rounded-md bg-[--color-background-flash] p-4 shadow-lg">
               <p>
                 {t.rich('troubleFirstReason', {
                   strong: (chunks) => (
@@ -50,7 +50,7 @@ export default function IndexPage({params: {locale}}: Props) {
                 width={300}
               />
             </li>
-            <li className="rounded-md p-4 shadow-lg">
+            <li className="rounded-md bg-[--color-background-flash] p-4 shadow-lg">
               <p>
                 {t.rich('troubleSecondReason', {
                   strong: (chunks) => (

@@ -16,3 +16,7 @@
     --color-focus: #fd0;
     --color-text-focus: #000;
 }
+
+body {
+    @apply bg-[--color-background];
+}
