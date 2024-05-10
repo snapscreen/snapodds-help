@@ -1,0 +1,28 @@
+{
+  "IndexPage": {
+    "title": "SnapOdds Anleitung",
+    "first": "Tippen Sie auf die SnapOdds-Schaltfläche.",
+    "second": "Machen Sie ein Foto des gesamten Fernsehbildes.",
+    "troubleTitle": "Sie erhalten keine Odds?",
+    "troubleFirstReason": "<strong>Ihr Fernseher ist zu nah.</strong> Nur ein Teil des Fernsehers wurde aufgenommen.",
+    "troubleSecondReason": "<strong>Ihr Fernseher ist zu weit entfernt.</strong>",
+    "valueProposition": "Wann SnapOdds verwenden?",
+    "valueFirst": "Sie verfolgen ein Sportereignis live im Fernsehen.",
+    "valueSecond": "Sie möchten Sportwetten-Quoten sehen, um eine Wette zu platzieren."
+  },
+  "Error": {
+    "title": "Etwas ist schief gelaufen!",
+    "description": "<p>Es ist leider ein Problem aufgetreten.</p><p>Du kannst versuchen <retry>diese Seite neu zu laden</retry>.</p>"
+  },
+  "NotFoundPage": {
+    "title": "Seite nicht gefunden",
+    "description": "Bitte überprüfe die Addressleiste deines Browsers oder verwende die Navigation um zu einer bekannten Seite zu wechseln."
+  },
+  "LocaleLayout": {
+    "title": "Anleitung"
+  },
+  "LocaleSwitcher": {
+    "label": "Sprache ändern",
+    "locale": "{locale, select, de {Deutsch (DE)} en {English (EN)} other {Unbekannt}}"
+  }
+}

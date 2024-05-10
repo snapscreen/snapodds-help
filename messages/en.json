@@ -1,0 +1,28 @@
+{
+  "IndexPage": {
+    "title": "SnapOdds Instructions",
+    "first": "Tap the SnapOdds button.",
+    "second": "Take a photo of the full TV picture.",
+    "troubleTitle": "Not getting Odds?",
+    "troubleFirstReason": "<strong>Your TV is too close.</strong> Only part of the TV was snapped.",
+    "troubleSecondReason": "<strong>Your TV is too far away.</strong>",
+    "valueProposition": "When use SnapOdds?",
+    "valueFirst": "You are watching a sporting event live on TV.",
+    "valueSecond": "You want to see sportsbook odds to place a bet."
+  },
+  "Error": {
+    "title": "Something went wrong!",
+    "description": "<p>We've unfortunately encountered an error.</p><p>You can try to <retry>reload the page</retry> you were visiting.</p>"
+  },
+  "NotFoundPage": {
+    "title": "Page not found",
+    "description": "Please double-check the browser address bar or use the navigation to go to a known page."
+  },
+  "LocaleLayout": {
+    "title": "Instructions"
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, de {Deutsch (DE)} en {English (EN)} other {Unknown}}"
+  }
+}
