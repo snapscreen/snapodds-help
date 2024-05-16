@@ -1,6 +1,6 @@
 {
   "IndexPage": {
-    "title": "SnapOdds Anleitung",
+    "title": "SnapOdds - Anleitung",
     "first": "Tippen Sie auf die SnapOdds-Schaltfläche.",
     "second": "Machen Sie ein Foto des gesamten Fernsehbildes.",
     "troubleTitle": "Sie erhalten keine Odds?",
@@ -23,6 +23,6 @@
   },
   "LocaleSwitcher": {
     "label": "Sprache ändern",
-    "locale": "{locale, select, en {English (EN)} sr {Serbisch (SR)} de {Deutsch (DE)} other {Unbekannt}}"
+    "locale": "{locale, select, en {English (EN)} sr {Srpski (SR)} de {Deutsch (DE)} other {Unbekannt}}"
   }
 }

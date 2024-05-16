@@ -1,6 +1,6 @@
 {
   "IndexPage": {
-    "title": "SnapOdds Instructions",
+    "title": "SnapOdds - Instructions",
     "first": "Tap the SnapOdds button.",
     "second": "Take a photo of the full TV picture.",
     "troubleTitle": "Not getting Odds?",
@@ -23,6 +23,6 @@
   },
   "LocaleSwitcher": {
     "label": "Change language",
-    "locale": "{locale, select, en {English (EN)} sr {Srspki (SR)} de {Deutsch (DE)} other {Unknown}}"
+    "locale": "{locale, select, en {English (EN)} sr {Srpski (SR)} de {Deutsch (DE)} other {Unknown}}"
   }
 }
