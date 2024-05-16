@@ -1,25 +1,25 @@
 {
   "IndexPage": {
-    "title": "SnapOdds Uputstvo",
-    "first": "Tap the SnapOdds button.",
-    "second": "Take a photo of the full TV picture.",
-    "troubleTitle": "Not getting Odds?",
-    "troubleFirstReason": "<strong>Your TV is too close.</strong> Only part of the TV was snapped.",
-    "troubleSecondReason": "<strong>Your TV is too far away.</strong>",
-    "valueProposition": "When use SnapOdds?",
-    "valueFirst": "You are watching a sporting event live on TV.",
-    "valueSecond": "You want to see sportsbook odds to place a bet."
+    "title": "SnapOdds - uputstvo",
+    "first": "Tapnite ikonicu za pokretanje pretrage.",
+    "second": "Uperite kameru Vašeg uređaja tako da TV prenos bude vidljivo uokviren u prozoru za pretragu.",
+    "troubleTitle": "Kvote nisu prikazane?",
+    "troubleFirstReason": "<strong>TV je preblizu.</strong> Samo deo TV prenosa je u kadru.",
+    "troubleSecondReason": "<strong>TV je predaleko.</strong> Približite kameru i uslikajte ceo TV.",
+    "valueProposition": "Zašto koristiti SnapOdds?",
+    "valueFirst": "Pratite uživo prenos sportskog događaja na TV-u.",
+    "valueSecond": "Želite na najbrži i najefikasniji način da vidite ponudu live kvota za događaj koji pratite."
   },
   "Error": {
-    "title": "Something went wrong!",
-    "description": "<p>We've unfortunately encountered an error.</p><p>You can try to <retry>reload the page</retry> you were visiting.</p>"
+    "title": "Došlo je do greške.",
+    "description": "<p>Došlo je do greške.</p><p>Pokušajte da <retry>ponovo učitate</retry> stranicu.</p>"
   },
   "NotFoundPage": {
-    "title": "Page not found",
-    "description": "Please double-check the browser address bar or use the navigation to go to a known page."
+    "title": "Stranica nije pronađena",
+    "description": "Molimo proverite tačnost adrese u pretraživaču ili koristite navigaciju da se vratite na prethodnu stranicu."
   },
   "LocaleLayout": {
-    "title": "Uputstvo"
+    "title": "Uputstva"
   },
   "LocaleSwitcher": {
     "label": "Change language",
