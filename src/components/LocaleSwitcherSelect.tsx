@@ -50,7 +50,11 @@ export default function LocaleSwitcherSelect({
       >
         {children}
       </select>
-      <span className="pointer-events-none absolute right-2 top-[8px]">⌄</span>
+      <span className="pointer-events-none absolute right-2 top-[8px]">
+        <svg className="h-6 w-6" fill="currentColor" viewBox="0 -960 960 960">
+          <path d="M480-344 240-584l43-43 197 197 197-197 43 43-240 240Z" />
+        </svg>
+      </span>
     </label>
   );
 }

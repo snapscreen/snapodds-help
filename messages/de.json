@@ -23,6 +23,6 @@
   },
   "LocaleSwitcher": {
     "label": "Sprache ändern",
-    "locale": "{locale, select, de {Deutsch (DE)} en {English (EN)} other {Unbekannt}}"
+    "locale": "{locale, select, en {English (EN)} sr {Serbisch (SR)} de {Deutsch (DE)} other {Unbekannt}}"
   }
 }
